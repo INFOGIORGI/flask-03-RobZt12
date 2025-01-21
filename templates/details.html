@@ -1,0 +1,15 @@
+{%extends 'base.html'%}
+{%block navbar%}
+<ul>
+    <li><a href = "{{url_for('home')}}">Home</a></li>
+    <li><a href = "{{url_for('details')}}">Details</a></li>
+    <li><a href = "https://wikipedia.com">Wikipedia</a></li>
+</ul>
+{%endblock%}
+{%block content%}
+<table>
+    <tr><td>Nome</td><td>Prodotto</td><td>Scaffale</td><td>Prezzo</td></tr>
+</table>
+{%endblock%}
+
+
